@@ -10,21 +10,21 @@ export default function AboutHydro({ onBack }) {
         {
             title: "Freshness: The First Bite",
             tag: "Boutique Harvest",
-            image: "/images/about/harvest_hero.png",
+            image: "./images/about/harvest_hero.png",
             content: "We believe the journey from stalk to plate should be measured in minutes, not miles. Our boutique harvest method ensures that every leaf reaches you with its cell structure intact—yielding a crunch and flavor intensity that traditional logistics simply cannot preserve. This isn't just produce; it's a vibrant, living experience.",
             features: ["Harvest-to-Plate in Hours", "Peak Nutrient Density", "Unrivaled Crispness"]
         },
         {
             title: "Purity: Pure Mineral Springs",
             tag: "Double RO Purified",
-            image: "/images/about/freshness.png",
+            image: "./images/about/freshness.png",
             content: "Instead of relying on unpredictable groundwater, we create our own. Using a rigorous Double Reverse Osmosis process, we strip water to its purest form before infusing it with a bespoke blend of minerals. No lead, no industrial runoff—just the crisp clarity of a mountain spring in every bite.",
             features: ["Double RO Purified Base", "Bespoke Mineral Profiles", "Zero Heavy Metal Risk"]
         },
         {
             title: "The Sanctuary: Nature Perfected",
             tag: "Sun-Drenched Tech",
-            image: "/images/about/sanctuary.png",
+            image: "./images/about/sanctuary.png",
             content: "Step into our sun-drenched sanctuary. While the world outside 'negotiates' with unpredictable weather, we calculate perfection. Our precision-controlled environment ensures that every plant receives its ideal dosage of light, warmth, and nutrition—delivering standard-setting freshness 365 days a year.",
             features: ["365 Days of Spring", "Gentle Hydro-Nutrition", "Pathogen-Free Growth"]
         }
@@ -81,7 +81,7 @@ export default function AboutHydro({ onBack }) {
                             playsInline
                             style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'saturate(1.1) brightness(1.1) contrast(1.1)' }}
                         >
-                            <source src="/videos/richness_left.mp4" type="video/mp4" />
+                            <source src="./videos/richness_left.mp4" type="video/mp4" />
                         </video>
                     </div>
 
@@ -94,7 +94,7 @@ export default function AboutHydro({ onBack }) {
                             playsInline
                             style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'saturate(1.1) brightness(1.1) contrast(1.1)' }}
                         >
-                            <source src="/videos/richness_right.mp4" type="video/mp4" />
+                            <source src="./videos/richness_right.mp4" type="video/mp4" />
                         </video>
                     </div>
 

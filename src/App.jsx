@@ -37,10 +37,10 @@ function App() {
 
   // Shared Forecast State
   const [forecast, setForecast] = useState([
-    { id: 101, name: 'Wasabi Arugula', stage: 'Germinating', daysRemaining: 12, capacity: 50, reserved: 42, status: 'active', image: '/emerald_lettuce_macro_8k.png', hue: '0deg' },
-    { id: 102, name: 'Purple Basil', stage: 'Vegetation', daysRemaining: 5, capacity: 100, reserved: 88, status: 'active', image: '/images/products/purple_basil.png', hue: '0deg' },
-    { id: 103, name: 'Micro-Cilantro', stage: 'Seeding', daysRemaining: 18, capacity: 200, reserved: 15, status: 'active', image: '/luxury_germination_phase_2.png', hue: '0deg' },
-    { id: 104, name: 'Saffron Crocus', stage: 'Planning', daysRemaining: 45, capacity: 10, reserved: 10, status: 'full', image: '/luxury_germination_phase_4_real.png', hue: '320deg' },
+    { id: 101, name: 'Wasabi Arugula', stage: 'Germinating', daysRemaining: 12, capacity: 50, reserved: 42, status: 'active', image: './emerald_lettuce_macro_8k.png', hue: '0deg' },
+    { id: 102, name: 'Purple Basil', stage: 'Vegetation', daysRemaining: 5, capacity: 100, reserved: 88, status: 'active', image: './images/products/purple_basil.png', hue: '0deg' },
+    { id: 103, name: 'Micro-Cilantro', stage: 'Seeding', daysRemaining: 18, capacity: 200, reserved: 15, status: 'active', image: './luxury_germination_phase_2.png', hue: '0deg' },
+    { id: 104, name: 'Saffron Crocus', stage: 'Planning', daysRemaining: 45, capacity: 10, reserved: 10, status: 'full', image: './luxury_germination_phase_4_real.png', hue: '320deg' },
   ]);
 
   const handleUpdateForecast = (id, updates) => {
@@ -282,7 +282,16 @@ function App() {
 
           {(view === 'store' || view === 'journey') && (
             <>
-              <Hero />
+              <Hero
+                onViewCollection={() => {
+                  const el = document.getElementById('shop');
+                  if (el) el.scrollIntoView({ behavior: 'smooth' });
+                }}
+                onTechnologyClick={() => {
+                  const el = document.getElementById('journey-section');
+                  if (el) el.scrollIntoView({ behavior: 'smooth' });
+                }}
+              />
               <ChefPalate />
 
               <div className="container" style={{ paddingBottom: '4rem' }}>

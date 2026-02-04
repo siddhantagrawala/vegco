@@ -85,7 +85,7 @@ export default function ProductDetail({ product, onBack, onAdd, cartItems }) {
                         }}>
                             {product.image.endsWith('.mp4') ? (
                                 <video
-                                    src={product.image}
+                                    src={product.image.startsWith('/') ? '.' + product.image : product.image}
                                     autoPlay
                                     muted
                                     loop
@@ -94,7 +94,7 @@ export default function ProductDetail({ product, onBack, onAdd, cartItems }) {
                                 />
                             ) : (
                                 <img
-                                    src={product.image}
+                                    src={product.image.startsWith('/') ? '.' + product.image : product.image}
                                     alt={product.title}
                                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                                 />

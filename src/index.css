@@ -65,7 +65,7 @@ body {
   font-family: var(--font-sans);
   background-color: var(--color-bg-light);
   /* Luxury Linen Texture */
-  background-image: url('/luxury_global_texture_v2.png');
+  background-image: url('./luxury_global_texture_v2.png');
   background-size: 300px;
   /* Subtle repeating pattern */
   background-repeat: repeat;

@@ -84,7 +84,7 @@ export default function Navbar({
               onClick={() => window.location.href = '/'}
             >
               <img
-                src="/vegco_v_final_clean.png"
+                src="./vegco_v_final_clean.png"
                 alt="VEGCO Logo"
                 style={{
                   height: '32px',

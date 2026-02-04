@@ -123,7 +123,7 @@ const CatalogueLeaflet = ({ onBack }) => {
             time: "12 mins",
             calories: 210,
             clinical: "Anti-Inflammatory",
-            image: "/recipe_detox_bowl_8k.png"
+            image: "./recipe_detox_bowl_8k.png"
         },
         {
             name: "Clinical Palak Paneer",
@@ -131,7 +131,7 @@ const CatalogueLeaflet = ({ onBack }) => {
             time: "20 mins",
             calories: 320,
             clinical: "Bone Density",
-            image: "/recipe_palak_paneer_8k.png"
+            image: "./recipe_palak_paneer_8k.png"
         },
         {
             name: "V-Methi Thepla Protocol",
@@ -139,7 +139,7 @@ const CatalogueLeaflet = ({ onBack }) => {
             time: "25 mins",
             calories: 145,
             clinical: "Glycemic Regulation",
-            image: "/recipe_methi_thepla_8k.png"
+            image: "./recipe_methi_thepla_8k.png"
         },
         {
             name: "Solar Moong Chilla",
@@ -147,7 +147,7 @@ const CatalogueLeaflet = ({ onBack }) => {
             time: "15 mins",
             calories: 180,
             clinical: "Digestive Efficiency",
-            image: "/recipe_moong_dal_chilla_8k.png"
+            image: "./recipe_moong_dal_chilla_8k.png"
         },
         {
             name: "Curry Leaf Hydrosol Pesto",
@@ -155,7 +155,7 @@ const CatalogueLeaflet = ({ onBack }) => {
             time: "10 mins",
             calories: 95,
             clinical: "Neuro-Protection",
-            image: "/recipe_curry_leaf_pesto_8k.png"
+            image: "./recipe_curry_leaf_pesto_8k.png"
         },
         {
             name: "Basil-V Carbonara",
@@ -163,7 +163,7 @@ const CatalogueLeaflet = ({ onBack }) => {
             time: "25 mins",
             calories: 450,
             clinical: "Cardiac Health",
-            image: "/recipe_basil_carbonara_8k.png"
+            image: "./recipe_basil_carbonara_8k.png"
         }
     ];
 
@@ -179,7 +179,7 @@ const CatalogueLeaflet = ({ onBack }) => {
         <div className="catalogue-leaflet-page" style={{
             minHeight: '100vh',
             backgroundColor: 'var(--color-bg-light)',
-            backgroundImage: 'url("/luxury_global_texture_v2.png")',
+            backgroundImage: 'url("./luxury_global_texture_v2.png")',
             backgroundSize: '300px',
             backgroundRepeat: 'repeat',
             color: 'var(--color-text-main)',
@@ -217,7 +217,7 @@ const CatalogueLeaflet = ({ onBack }) => {
                             {products.filter(p => p.category === category).map(product => (
                                 <div key={product.id} className="avoid-break" style={{ border: '1px solid rgba(28, 25, 23, 0.05)', padding: '0.5rem' }}>
                                     <div style={{ aspectRatio: '4/3', width: '100%', background: '#f5f5f4', marginBottom: '0.5rem' }}>
-                                        <img src={product.image} alt={product.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                        <img src={product.image.startsWith('/') ? '.' + product.image : product.image} alt={product.title} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                                     </div>
                                     <div style={{ fontWeight: 'bold', fontSize: '0.9rem', color: 'var(--color-text-main)' }}>{product.title}</div>
                                     <div style={{ color: 'var(--color-primary)', fontWeight: 'bold' }}>

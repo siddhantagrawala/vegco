@@ -31,7 +31,7 @@ const CrunchTest = () => {
                 loop
                 muted
                 playsInline
-                poster="/emerald_lettuce_macro_8k.png"
+                poster="./emerald_lettuce_macro_8k.png"
                 style={{
                     position: 'absolute',
                     top: '50%',
@@ -45,9 +45,9 @@ const CrunchTest = () => {
                     backgroundColor: '#1a472a' // Dark green fallback
                 }}
             >
-                <source src="/video_fresh_lettuce.mp4" type="video/mp4" />
+                <source src="./video_fresh_lettuce.mp4" type="video/mp4" />
                 {/* Fallback Image if video fails - NOW WITH BRIGHTNESS FILTER */}
-                <img src="/emerald_lettuce_macro_8k.png" alt="Fresh Lettuce" style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(0.5)' }} />
+                <img src="./emerald_lettuce_macro_8k.png" alt="Fresh Lettuce" style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(0.5)' }} />
             </video>
 
             {/* DARK OVERLAY for Guaranteed Contrast */}
@@ -83,7 +83,7 @@ const CrunchTest = () => {
             </div>
 
 
-            <audio ref={audioRef} src="/custom_crunch.wav" preload="auto" />
+            <audio ref={audioRef} src="./custom_crunch.wav" preload="auto" />
         </section >
     );
 };

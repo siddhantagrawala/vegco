@@ -207,7 +207,7 @@ export default function PurityIndex({ onBack }) {
                         position: 'relative'
                     }}>
                         <img
-                            src="/priva_compass_interface.png"
+                            src="./priva_compass_interface.png"
                             alt="Priva Compass Operator Interface"
                             style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(1.05)' }}
                         />
@@ -260,7 +260,7 @@ export default function PurityIndex({ onBack }) {
                             position: 'relative', overflow: 'hidden'
                         }}>
                             <img
-                                src="/lab_report_modern.png"
+                                src="./lab_report_modern.png"
                                 alt="Certified Lab Report"
                                 style={{
                                     width: '100%', height: '100%', objectFit: 'contain',

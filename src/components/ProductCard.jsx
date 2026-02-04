@@ -53,7 +53,7 @@ export default function ProductCard({ product, onAdd, onRemove, cartQuantity = 0
                 {product.image.endsWith('.mp4') ? (
                     <video
                         className="product-img"
-                        src={product.image}
+                        src={product.image.startsWith('/') ? '.' + product.image : product.image}
                         autoPlay
                         muted
                         loop
@@ -80,8 +80,9 @@ export default function ProductCard({ product, onAdd, onRemove, cartQuantity = 0
                 ) : (
                     <img
                         className="product-img"
-                        src={product.image}
+                        src={product.image.startsWith('/') ? '.' + product.image : product.image}
                         alt={product.title}
+                        loading="lazy"
                         style={{
                             width: '100%', height: '100%', objectFit: 'cover',
                             transition: 'transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1)', // Bouncy transition

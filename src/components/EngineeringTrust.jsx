@@ -62,7 +62,7 @@ export default function EngineeringTrust() {
                             playsInline
                             style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'contrast(1.1) saturate(1.2)' }}
                         >
-                            <source src="/videos/quality_bg.mp4" type="video/mp4" />
+                            <source src="./videos/quality_bg.mp4" type="video/mp4" />
                         </video>
                     </div>
 
@@ -74,10 +74,10 @@ export default function EngineeringTrust() {
                             loop
                             muted
                             playsInline
-                            poster="/trust_poster.png"
+                            poster="./trust_poster.png"
                             style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'contrast(1.1) saturate(1.2)' }}
                         >
-                            <source src="/videos/emerald_harvest.mp4" type="video/mp4" />
+                            <source src="./videos/emerald_harvest.mp4" type="video/mp4" />
                         </video>
                     </div>
                 </div>
@@ -175,10 +175,10 @@ export default function EngineeringTrust() {
 function Slideshow() {
     const [index, setIndex] = React.useState(0);
     const images = [
-        '/videos/frames/stage1.png',
-        '/videos/frames/stage2.png',
-        '/videos/frames/stage3.png',
-        '/videos/frames/stage4.png'
+        './videos/frames/stage1.png',
+        './videos/frames/stage2.png',
+        './videos/frames/stage3.png',
+        './videos/frames/stage4.png'
     ];
 
     useEffect(() => {

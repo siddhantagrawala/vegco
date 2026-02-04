@@ -1,7 +1,7 @@
 import React from 'react';
 import { Leaf, Award, Droplets } from 'lucide-react';
 
-export default function Hero() {
+export default function Hero({ onViewCollection, onTechnologyClick }) {
     return (
         <div style={{
             position: 'relative',
@@ -48,7 +48,7 @@ export default function Hero() {
                         zIndex: 0
                     }}
                 >
-                    <source src="/videos/vegco_showcase.mp4" type="video/mp4" />
+                    <source src="./videos/vegco_showcase.mp4" type="video/mp4" />
                 </video>
 
                 {/* Fallback Slideshow */}
@@ -122,10 +122,18 @@ export default function Hero() {
                     </p>
 
                     <div className="animate-fade-up delay-300" style={{ display: 'flex', gap: '1rem' }}>
-                        <button className="btn btn-primary" style={{ padding: '1rem 2.5rem' }}>
+                        <button
+                            onClick={onViewCollection}
+                            className="btn btn-primary"
+                            style={{ padding: '1rem 2.5rem' }}
+                        >
                             View Collection
                         </button>
-                        <button className="btn btn-outline" style={{ padding: '1rem 2.5rem' }}>
+                        <button
+                            onClick={onTechnologyClick}
+                            className="btn btn-outline"
+                            style={{ padding: '1rem 2.5rem' }}
+                        >
                             Our Technology
                         </button>
                     </div>
@@ -184,10 +192,10 @@ export default function Hero() {
 function Slideshow() {
     const [index, setIndex] = React.useState(0);
     const images = [
-        '/videos/frames/stage1.png',
-        '/videos/frames/stage2.png',
-        '/videos/frames/stage3.png',
-        '/videos/frames/stage4.png'
+        './videos/frames/stage1.png',
+        './videos/frames/stage2.png',
+        './videos/frames/stage3.png',
+        './videos/frames/stage4.png'
     ];
 
     React.useEffect(() => {

@@ -72,9 +72,9 @@ const VegcoBrochure = ({ onBack }) => {
     ];
 
     const recipes = [
-        { name: "Detox Bowl", cal: "210 kcal", benefit: "Anti-Inflammatory", img: "/recipe_detox_bowl_8k.png" },
-        { name: "Palak Paneer", cal: "320 kcal", benefit: "Bone Density", img: "/recipe_palak_paneer_8k.png" },
-        { name: "Methi Thepla", cal: "145 kcal", benefit: "Glycemic Control", img: "/recipe_methi_thepla_8k.png" },
+        { name: "Detox Bowl", cal: "210 kcal", benefit: "Anti-Inflammatory", img: "./recipe_detox_bowl_8k.png" },
+        { name: "Palak Paneer", cal: "320 kcal", benefit: "Bone Density", img: "./recipe_palak_paneer_8k.png" },
+        { name: "Methi Thepla", cal: "145 kcal", benefit: "Glycemic Control", img: "./recipe_methi_thepla_8k.png" },
     ];
 
     const rateCardItems = [
@@ -123,7 +123,7 @@ const VegcoBrochure = ({ onBack }) => {
         <div style={{
             minHeight: '100vh',
             backgroundColor: 'var(--color-bg-light)',
-            backgroundImage: 'url("/luxury_global_texture_v2.png")',
+            backgroundImage: 'url("./luxury_global_texture_v2.png")',
             backgroundSize: '300px',
             backgroundRepeat: 'repeat',
             display: 'flex',
@@ -174,7 +174,7 @@ const VegcoBrochure = ({ onBack }) => {
                 }}>
                     <div style={{
                         position: 'absolute', top: 0, left: 0, width: '100%', height: '100%',
-                        backgroundImage: 'url("/luxury_greenhouse_8k.png")',
+                        backgroundImage: 'url("./luxury_greenhouse_8k.png")',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         opacity: 0.4,
@@ -281,7 +281,7 @@ const VegcoBrochure = ({ onBack }) => {
                             {pageProducts.map((product) => (
                                 <div key={product.id} style={{ display: 'flex', gap: '1rem', border: '1px solid #e7e5e4', padding: '1rem', borderRadius: '1rem' }}>
                                     <div style={{ width: '140px', height: '140px', flexShrink: 0, border: '1px solid #e7e5e4' }}>
-                                        <img src={product.image} style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'contrast(1.1)' }} />
+                                        <img src={product.image.startsWith('/') ? '.' + product.image : product.image} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'contrast(1.1)' }} />
                                     </div>
                                     <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
                                         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
