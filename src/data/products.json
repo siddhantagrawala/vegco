@@ -1,0 +1,1174 @@
+[
+  {
+    "id": "romaine-lettuce",
+    "weight": "200g",
+    "title": "Exotic Romaine Lettuce",
+    "price": 149,
+    "category": "Leafy Greens",
+    "description": "The Caesar Salad essential. Tall head with crisp, sweet ribs.",
+    "image": "/products/romaine_lettuce_1769018875143.png",
+    "tags": [
+      "Hydroponic",
+      "Residue-Free",
+      "Salad",
+      "Keto"
+    ],
+    "nutrients": {
+      "calories": 17,
+      "minerals": [
+        {
+          "name": "Potassium",
+          "value": 247,
+          "unit": "mg"
+        },
+        {
+          "name": "Calcium",
+          "value": 33,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 14,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 0.97,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "baby-spinach",
+    "weight": "125g",
+    "title": "Exotic Baby Spinach (Zero Grit)",
+    "price": 60,
+    "category": "Leafy Greens",
+    "description": "100% Mud-Free. Ready to eat. No washing required.",
+    "image": "/products/baby_spinach_1769018893005.png",
+    "tags": [
+      "Superfood",
+      "Iron",
+      "Ready-to-Eat",
+      "Zero Mud"
+    ],
+    "nutrients": {
+      "calories": 23,
+      "minerals": [
+        {
+          "name": "Iron",
+          "value": 2.7,
+          "unit": "mg"
+        },
+        {
+          "name": "Potassium",
+          "value": 558,
+          "unit": "mg"
+        },
+        {
+          "name": "Calcium",
+          "value": 99,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 79,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "zesty-salad-mix",
+    "weight": "150g",
+    "title": "Zesty Salad Mix (Romaine + Rocket)",
+    "price": 169,
+    "category": "Leafy Greens",
+    "description": "Perfect blend of Sweet Romaine & Spicy Rocket. Instant Lunch.",
+    "image": "/products/zesty_salad_mix_1769019020859.png",
+    "tags": [
+      "Salad Mix",
+      "Lunch",
+      "Spicy",
+      "Pre-Cut"
+    ],
+    "nutrients": {
+      "calories": 21,
+      "minerals": [
+        {
+          "name": "Potassium",
+          "value": 310,
+          "unit": "mg"
+        },
+        {
+          "name": "Calcium",
+          "value": 45,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 18,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 1.2,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "butterhead-lettuce",
+    "weight": "200g",
+    "title": "Butterhead Lettuce",
+    "price": 159,
+    "category": "Leafy Greens",
+    "description": "Soft, buttery leaves. Perfect cup shape for Asian wraps.",
+    "image": "/products/butterhead_lettuce_1769018912618.png",
+    "tags": [
+      "Soft Texture",
+      "Wraps",
+      "Mild Taste"
+    ],
+    "nutrients": {
+      "calories": 13,
+      "minerals": [
+        {
+          "name": "Potassium",
+          "value": 238,
+          "unit": "mg"
+        },
+        {
+          "name": "Calcium",
+          "value": 35,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 13,
+          "unit": "mg"
+        },
+        {
+          "name": "Phosphorus",
+          "value": 33,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lollo-rosso",
+    "weight": "150g",
+    "title": "Lollo Rosso (Red)",
+    "price": 149,
+    "category": "Leafy Greens",
+    "description": "Vibrant red frilled leaves. Adds volume and color to salads.",
+    "image": "/products/lollo_rosso_1769018931563.png",
+    "tags": [
+      "Garnish",
+      "High Volume",
+      "Colorful",
+      "Antioxidant"
+    ],
+    "nutrients": {
+      "calories": 16,
+      "minerals": [
+        {
+          "name": "Potassium",
+          "value": 260,
+          "unit": "mg"
+        },
+        {
+          "name": "Calcium",
+          "value": 38,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 15,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 0.8,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "swiss-chard",
+    "weight": "200g",
+    "title": "Swiss Chard (Rainbow)",
+    "price": 189,
+    "category": "Leafy Greens",
+    "description": "Colorful stems. Earthy flavor like spinach but sweeter.",
+    "image": "/products/swiss_chard_1769018950661.png",
+    "tags": [
+      "Cooked Greens",
+      "Superfood",
+      "Colorful"
+    ],
+    "nutrients": {
+      "calories": 19,
+      "minerals": [
+        {
+          "name": "Magnesium",
+          "value": 81,
+          "unit": "mg"
+        },
+        {
+          "name": "Potassium",
+          "value": 379,
+          "unit": "mg"
+        },
+        {
+          "name": "Sodium",
+          "value": 213,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 1.8,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tuscan-kale",
+    "weight": "200g",
+    "title": "Tuscan Kale (Dino Kale)",
+    "price": 199,
+    "category": "Leafy Greens",
+    "description": "The Superfood King. Dark green, dimpled leaves. 40x nutrition.",
+    "image": "/products/tuscan_kale_1769018969413.png",
+    "tags": [
+      "Superfood",
+      "Smoothies",
+      "Chips",
+      "Kale"
+    ],
+    "nutrients": {
+      "calories": 33,
+      "minerals": [
+        {
+          "name": "Calcium",
+          "value": 254,
+          "unit": "mg"
+        },
+        {
+          "name": "Potassium",
+          "value": 447,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 33,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 1.6,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wild-arugula",
+    "weight": "100g",
+    "title": "Wild Arugula (Rocket)",
+    "price": 139,
+    "category": "Leafy Greens",
+    "description": "Peppery and spicy. The perfect pizza topping.",
+    "image": "/products/wild_arugula_1769018988494.png",
+    "tags": [
+      "Spicy",
+      "Garnish",
+      "Pizza Topping"
+    ],
+    "nutrients": {
+      "calories": 25,
+      "minerals": [
+        {
+          "name": "Calcium",
+          "value": 160,
+          "unit": "mg"
+        },
+        {
+          "name": "Potassium",
+          "value": 369,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 47,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 1.5,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cherry-tomato-red",
+    "weight": "200g",
+    "title": "Red Cherry Tomato (200g Cup)",
+    "price": 119,
+    "category": "Exotic Veg",
+    "description": "Sweet as candy. Pop them straight into your mouth.",
+    "image": "/products/cherry_tomato_red_1769019039624.png",
+    "tags": [
+      "High Brix",
+      "Snack",
+      "Thin Skin",
+      "Tomato"
+    ],
+    "nutrients": {
+      "calories": 18,
+      "minerals": [
+        {
+          "name": "Potassium",
+          "value": 237,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 11,
+          "unit": "mg"
+        },
+        {
+          "name": "Calcium",
+          "value": 10,
+          "unit": "mg"
+        },
+        {
+          "name": "Phosphorus",
+          "value": 24,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "grape-tomato-yellow",
+    "weight": "200g",
+    "title": "Yellow Grape Tomato (200g Cup)",
+    "price": 149,
+    "category": "Exotic Veg",
+    "description": "Rare yellow variety. Lower acidity, fruity sweetness.",
+    "image": "/products/grape_tomato_yellow_1769019057929.png",
+    "tags": [
+      "Rare",
+      "Sweet",
+      "Garnish",
+      "Yellow"
+    ],
+    "nutrients": {
+      "calories": 22,
+      "minerals": [
+        {
+          "name": "Potassium",
+          "value": 242,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 12,
+          "unit": "mg"
+        },
+        {
+          "name": "Calcium",
+          "value": 11,
+          "unit": "mg"
+        },
+        {
+          "name": "Phosphorus",
+          "value": 26,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "broccoli-head",
+    "weight": "300g",
+    "title": "Broccoli (Worm-Free)",
+    "scientific": "Brassica oleracea var. italica",
+    "price": 249,
+    "category": "Exotic Veg",
+    "description": "Hydroponically grown. Guaranteed no hidden worms or grit.",
+    "image": "/products/broccoli_head_1769019075198.png",
+    "tags": [
+      "Clean",
+      "No Worms",
+      "Steam-Ready",
+      "Keto"
+    ],
+    "nutrients": {
+      "calories": 34,
+      "minerals": [
+        {
+          "name": "Potassium",
+          "value": 316,
+          "unit": "mg"
+        },
+        {
+          "name": "Calcium",
+          "value": 47,
+          "unit": "mg"
+        },
+        {
+          "name": "Phosphorus",
+          "value": 66,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 21,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yellow-cauliflower",
+    "weight": "400g",
+    "title": "Yellow Cauliflower",
+    "scientific": "Brassica oleracea var. botrytis",
+    "price": 299,
+    "category": "Exotic Veg",
+    "description": "Beautiful golden color. High in Beta-Carotene.",
+    "image": "/products/yellow_cauliflower_1769019093147.png",
+    "tags": [
+      "Beauty Vitamin",
+      "Rare",
+      "Gourmet",
+      "Cauliflower"
+    ],
+    "nutrients": {
+      "calories": 25,
+      "minerals": [
+        {
+          "name": "Potassium",
+          "value": 299,
+          "unit": "mg"
+        },
+        {
+          "name": "Calcium",
+          "value": 22,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 15,
+          "unit": "mg"
+        },
+        {
+          "name": "Phosphorus",
+          "value": 44,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "green-chilli",
+    "weight": "100g",
+    "title": "Exotic Green Chilli",
+    "scientific": "Capsicum annuum",
+    "price": 79,
+    "category": "Exotic Veg",
+    "description": "Thin skin, medium spice. Clean and glossy.",
+    "image": "/products/green_chilli_1769019112214.png",
+    "tags": [
+      "Spice",
+      "Clean",
+      "Staple"
+    ],
+    "nutrients": {
+      "calories": 40,
+      "minerals": [
+        {
+          "name": "Potassium",
+          "value": 322,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 23,
+          "unit": "mg"
+        },
+        {
+          "name": "Calcium",
+          "value": 14,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 1,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "italian-basil",
+    "weight": "50g",
+    "title": "Italian Basil (Fresh)",
+    "scientific": "Ocimum basilicum",
+    "price": 99,
+    "category": "Exotic Veg",
+    "description": "The aroma of Italy. Essential for Pasta and Pizza.",
+    "image": "/products/italian_basil_1769019132480.png",
+    "tags": [
+      "Aromatic",
+      "Herb",
+      "Fresh",
+      "Italian"
+    ],
+    "nutrients": {
+      "calories": 23,
+      "minerals": [
+        {
+          "name": "Calcium",
+          "value": 177,
+          "unit": "mg"
+        },
+        {
+          "name": "Potassium",
+          "value": 295,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 64,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 3.17,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "home-garden-kit",
+    "weight": "1.5kg",
+    "title": "Home Garden Kit (Kitchen Edition)",
+    "price": 1299,
+    "category": "Kits",
+    "description": "Everything you need to grow your own fresh greens at home. Simple, soil-free, and perfect for your kitchen counter or balcony.",
+    "image": "/products/home_garden_kit_1769019163510.png",
+    "tags": [
+      "Home Growing",
+      "Sustainable",
+      "Family Project",
+      "Kitchen Garden"
+    ],
+    "nutrients": {
+      "calories": 0,
+      "minerals": [
+        {
+          "name": "Organic Start",
+          "value": 100,
+          "unit": "%"
+        },
+        {
+          "name": "Sustainability",
+          "value": "High",
+          "unit": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "microgreen-radish",
+    "weight": "50g",
+    "title": "Living Microgreen: Radish",
+    "price": 199,
+    "category": "Microgreens",
+    "description": "Living spicy radish greens. Cut fresh for salads.",
+    "image": "/products/microgreen_radish_1769019182150.png",
+    "tags": [
+      "Live Plant",
+      "Superfood",
+      "Spicy",
+      "Microgreen"
+    ],
+    "nutrients": {
+      "calories": 43,
+      "minerals": [
+        {
+          "name": "Calcium",
+          "value": 75,
+          "unit": "mg"
+        },
+        {
+          "name": "Potassium",
+          "value": 350,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 1.4,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 31,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "microgreen-sunflower",
+    "weight": "50g",
+    "title": "Living Microgreen: Sunflower",
+    "price": 199,
+    "category": "Microgreens",
+    "description": "Nutty, crunchy greens. Tastes like raw almonds.",
+    "image": "/products/microgreen_sunflower_1769019201960.png",
+    "tags": [
+      "Live Plant",
+      "Nutty",
+      "Kids Favorite",
+      "Microgreen"
+    ],
+    "nutrients": {
+      "calories": 45,
+      "minerals": [
+        {
+          "name": "Calcium",
+          "value": 62,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 1.1,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 28,
+          "unit": "mg"
+        },
+        {
+          "name": "Zinc",
+          "value": 0.8,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wheatgrass-tray",
+    "weight": "300g",
+    "title": "Wheatgrass Detox Tray",
+    "price": 249,
+    "category": "Microgreens",
+    "description": "7 Days of Detox Shots. Juicing ready.",
+    "image": "/images/products/wheatgrass_tray.png",
+    "tags": [
+      "Detox",
+      "Gym",
+      "Juicing",
+      "Wheatgrass"
+    ],
+    "nutrients": {
+      "calories": 15,
+      "minerals": [
+        {
+          "name": "Iron",
+          "value": 2.1,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 24,
+          "unit": "mg"
+        },
+        {
+          "name": "Potassium",
+          "value": 147,
+          "unit": "mg"
+        },
+        {
+          "name": "Calcium",
+          "value": 24,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "locarno-lettuce",
+    "weight": "200g",
+    "title": "Locarno Lettuce (Frilled)",
+    "scientific": "Lactuca sativa",
+    "price": 169,
+    "category": "Leafy Greens",
+    "description": "Premium frilled variety with superior crunch and high-moisture retention.",
+    "image": "/products/lollo_rosso_1769018931563.png",
+    "tags": [
+      "Frilled",
+      "Crisp",
+      "Salad Base",
+      "Premium"
+    ],
+    "nutrients": {
+      "calories": 15,
+      "minerals": [
+        {
+          "name": "Potassium",
+          "value": 240,
+          "unit": "mg"
+        },
+        {
+          "name": "Vitamin A",
+          "value": 145,
+          "unit": "mcg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pak-choi",
+    "weight": "200g",
+    "title": "Baby Pak Choi",
+    "scientific": "Brassica rapa subsp. chinensis",
+    "price": 149,
+    "category": "Leafy Greens",
+    "description": "Asian precision green with succulent white stems and tender leaves.",
+    "image": "/products/baby_pak_choi_enhanced.png",
+    "tags": [
+      "Asian Cuisine",
+      "Stir-fry",
+      " succulent",
+      "Gentle"
+    ],
+    "nutrients": {
+      "calories": 13,
+      "minerals": [
+        {
+          "name": "Calcium",
+          "value": 105,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 0.8,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "curly-kale",
+    "weight": "200g",
+    "title": "Curly Kale",
+    "scientific": "Brassica oleracea var. sabellica",
+    "price": 199,
+    "category": "Leafy Greens",
+    "description": "Highly textured superfood with massive nutrient density per square cm.",
+    "image": "/products/curly_kale_real.jpg",
+    "tags": [
+      "Superfood",
+      "Textured",
+      "High Fiber",
+      "Kale"
+    ],
+    "nutrients": {
+      "calories": 35,
+      "minerals": [
+        {
+          "name": "Vitamin K",
+          "value": 700,
+          "unit": "mcg"
+        },
+        {
+          "name": "Calcium",
+          "value": 150,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "red-grape-tomato",
+    "weight": "200g",
+    "title": "Red Grape Tomato (200g Cup)",
+    "scientific": "Solanum lycopersicum",
+    "price": 159,
+    "category": "Exotic Veg",
+    "description": "Elongated sweetness. High-gloss, firm bite snack variety.",
+    "image": "/products/cherry_tomato_red_1769019039624.png",
+    "tags": [
+      "Sweet",
+      "Snack",
+      "Low Acid",
+      "Grape"
+    ],
+    "nutrients": {
+      "calories": 22,
+      "minerals": [
+        {
+          "name": "Lycopene",
+          "value": 3000,
+          "unit": "mcg"
+        },
+        {
+          "name": "Potassium",
+          "value": 240,
+          "unit": "mg"
+        },
+        {
+          "name": "Vitamin C",
+          "value": 14,
+          "unit": "mg"
+        },
+        {
+          "name": "Vitamin A",
+          "value": 833,
+          "unit": "iu"
+        }
+      ]
+    }
+  },
+  {
+    "id": "purple-cauliflower",
+    "weight": "400g",
+    "title": "Purple Cauliflower",
+    "scientific": "Brassica oleracea var. botrytis",
+    "price": 329,
+    "category": "Exotic Veg",
+    "description": "Exotic royal violet florets. High in anthocyanin antioxidants.",
+    "image": "/products/purple_cauliflower_real.png",
+    "tags": [
+      "Antioxidant",
+      "Vivid",
+      "Rare",
+      "Cauliflower"
+    ],
+    "nutrients": {
+      "calories": 25,
+      "minerals": [
+        {
+          "name": "Anthocyanin",
+          "value": 450,
+          "unit": "mg"
+        },
+        {
+          "name": "Vitamin C",
+          "value": 48,
+          "unit": "mg"
+        },
+        {
+          "name": "Potassium",
+          "value": 299,
+          "unit": "mg"
+        },
+        {
+          "name": "Folate",
+          "value": 57,
+          "unit": "mcg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "purple-basil",
+    "weight": "50g",
+    "title": "Purple Basil (Opal)",
+    "scientific": "Ocimum basilicum var. purpurascens",
+    "price": 119,
+    "category": "Exotic Veg",
+    "description": "Deep violet foliage. Bold Italian aroma with clove-like undertones.",
+    "image": "/products/italian_basil_1769019132480.png",
+    "tags": [
+      "Aromatic",
+      "Vivid",
+      "Herb",
+      "Italian"
+    ],
+    "nutrients": {
+      "calories": 23,
+      "minerals": [
+        {
+          "name": "Calcium",
+          "value": 170,
+          "unit": "mg"
+        },
+        {
+          "name": "Vitamin K",
+          "value": 414,
+          "unit": "mcg"
+        },
+        {
+          "name": "Iron",
+          "value": 3.2,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 64,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rosemary-herb",
+    "weight": "50g",
+    "title": "Rosemary (Fresh)",
+    "scientific": "Salvia rosmarinus",
+    "price": 70,
+    "category": "Exotic Veg",
+    "description": "Woody, resinous needles for precision culinary infusion.",
+    "image": "/images/products/rosemary.png",
+    "tags": [
+      "Woody",
+      "Herb",
+      "Roasting",
+      "Infusion"
+    ],
+    "nutrients": {
+      "calories": 131,
+      "minerals": [
+        {
+          "name": "Calcium",
+          "value": 317,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 6.6,
+          "unit": "mg"
+        },
+        {
+          "name": "Vitamin A",
+          "value": 2924,
+          "unit": "iu"
+        },
+        {
+          "name": "Magnesium",
+          "value": 91,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "thyme-herb",
+    "weight": "50g",
+    "title": "Precision Thyme",
+    "scientific": "Thymus vulgaris",
+    "price": 60,
+    "category": "Exotic Veg",
+    "description": "Delicate earthy complexity. Essential for slow-cook protocols.",
+    "image": "/images/products/thyme.png",
+    "tags": [
+      "Earthy",
+      "Herb",
+      "Precision",
+      "Flavor"
+    ],
+    "nutrients": {
+      "calories": 101,
+      "minerals": [
+        {
+          "name": "Vitamin C",
+          "value": 160,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 17,
+          "unit": "mg"
+        },
+        {
+          "name": "Manganese",
+          "value": 1.7,
+          "unit": "mg"
+        },
+        {
+          "name": "Calcium",
+          "value": 405,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mint-herb",
+    "weight": "50g",
+    "title": "Cool Spear Mint",
+    "scientific": "Mentha spicata",
+    "price": 79,
+    "category": "Exotic Veg",
+    "description": "High-menthol cool-spectrum botanical for detox and hydration.",
+    "image": "/images/products/mint.png",
+    "tags": [
+      "Cooling",
+      "Detox",
+      "Hydration",
+      "Herb"
+    ],
+    "nutrients": {
+      "calories": 70,
+      "minerals": [
+        {
+          "name": "Manganese",
+          "value": 1.1,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 5,
+          "unit": "mg"
+        },
+        {
+          "name": "Folate",
+          "value": 105,
+          "unit": "mcg"
+        },
+        {
+          "name": "Calcium",
+          "value": 243,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "parsley-herb",
+    "weight": "50g",
+    "title": "Hydroponic Parsley",
+    "scientific": "Petroselinum crispum",
+    "price": 89,
+    "category": "Exotic Veg",
+    "description": "High-aroma flat-leaf variety. Clinical freshness for gourmet garnishing.",
+    "image": "/images/products/parsley.png",
+    "tags": [
+      "Herb",
+      "Aromatic",
+      "Garnish",
+      "Fresh"
+    ],
+    "nutrients": {
+      "calories": 36,
+      "minerals": [
+        {
+          "name": "Iron",
+          "value": 6.2,
+          "unit": "mg"
+        },
+        {
+          "name": "Vitamin C",
+          "value": 133,
+          "unit": "mg"
+        },
+        {
+          "name": "Vitamin A",
+          "value": 8424,
+          "unit": "iu"
+        },
+        {
+          "name": "Potassium",
+          "value": 554,
+          "unit": "mg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "celery-stalks",
+    "weight": "250g",
+    "title": "Exotic Celery",
+    "scientific": "Apium graveolens",
+    "price": 179,
+    "category": "Exotic Veg",
+    "description": "Ultra-crisp stalks with high cellular hydration. Perfect for juicing.",
+    "image": "/products/celery_stalks_hydroponic.png",
+    "tags": [
+      "Juicing",
+      "Crunchy",
+      "Low Calorie",
+      "Detox"
+    ],
+    "nutrients": {
+      "calories": 16,
+      "minerals": [
+        {
+          "name": "Sodium",
+          "value": 80,
+          "unit": "mg"
+        },
+        {
+          "name": "Potassium",
+          "value": 260,
+          "unit": "mg"
+        },
+        {
+          "name": "Calcium",
+          "value": 40,
+          "unit": "mg"
+        },
+        {
+          "name": "Folate",
+          "value": 36,
+          "unit": "mcg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sage-herb",
+    "weight": "50g",
+    "title": "Sage (Signature Variety)",
+    "scientific": "Salvia officinalis",
+    "price": 50,
+    "category": "Exotic Veg",
+    "description": "Botanical heritage meets hydroponic precision. Velvety, aromatic leaves.",
+    "image": "/images/products/rosemary.png",
+    "tags": [
+      "Medicinal",
+      "Aromatic",
+      "Herb",
+      "Signature"
+    ],
+    "nutrients": {
+      "calories": 315,
+      "minerals": [
+        {
+          "name": "Vitamin K",
+          "value": 1700,
+          "unit": "mcg"
+        },
+        {
+          "name": "Calcium",
+          "value": 1650,
+          "unit": "mg"
+        },
+        {
+          "name": "Iron",
+          "value": 28,
+          "unit": "mg"
+        },
+        {
+          "name": "Magnesium",
+          "value": 428,
+          "unit": "mg"
+        }
+      ]
+    }
+  }
+]

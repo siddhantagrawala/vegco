@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEGCO Catalogue</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body { margin: 0; padding: 0; font-family: 'Inter', sans-serif; background: #fff; color: #000; }
+        .catalogue { max-width: 210mm; margin: 40px auto; padding: 40px; border: 1px solid #eee; }
+        @media print {
+            .catalogue { border: none; margin: 0; width: 100%; max-width: none; }
+            .no-print { display: none; }
+            body { margin: 0; }
+        }
+        .header { text-align: center; border-bottom: 2px solid #000; padding-bottom: 20px; margin-bottom: 40px; }
+        .brand { font-size: 3rem; margin: 0; letter-spacing: 0.1em; text-transform: uppercase; }
+        .subtitle { margin: 10px 0 0; text-transform: uppercase; letter-spacing: 0.2em; font-size: 0.8rem; }
+        .category { margin-bottom: 40px; page-break-inside: avoid; }
+        .category-title { font-size: 1.2rem; text-transform: uppercase; border-bottom: 1px solid #000; padding-bottom: 5px; margin-bottom: 20px; letter-spacing: 0.1em; }
+        .product { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 15px; border-bottom: 1px dotted #ccc; padding-bottom: 5px; page-break-inside: avoid; }
+        .product-info { flex: 1; }
+        .product-title { font-weight: bold; font-size: 1rem; }
+        .product-desc { font-size: 0.85rem; color: #555; margin-top: 2px; }
+        .product-price { font-weight: bold; font-size: 1.1rem; white-space: nowrap; margin-left: 20px; }
+        .footer { text-align: center; font-size: 0.8rem; color: #666; margin-top: 50px; border-top: 1px solid #eee; padding-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="catalogue">
+        <div class="header">
+            <h1 class="brand">VEGCO</h1>
+            <p class="subtitle">Premium Hydroponic Selection</p>
+            <p style="font-size: 0.7rem; color: #666; margin-top: 1rem;">Generated on 23/1/2026</p>
+        </div>
+        <div class="category">
+            <h3 class="category-title">Leafy Greens</h3>
+            <div class="products">
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Exotic Romaine Lettuce</div>
+                        <div class="product-desc">The Caesar Salad essential. Tall head with crisp, sweet ribs.</div>
+                    </div>
+                    <div class="product-price">₹149</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Exotic Baby Spinach (Zero Grit)</div>
+                        <div class="product-desc">100% Mud-Free. Ready to eat. No washing required.</div>
+                    </div>
+                    <div class="product-price">₹129</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Zesty Salad Mix (Romaine + Rocket)</div>
+                        <div class="product-desc">Perfect blend of Sweet Romaine & Spicy Rocket. Instant Lunch.</div>
+                    </div>
+                    <div class="product-price">₹169</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Butterhead Lettuce</div>
+                        <div class="product-desc">Soft, buttery leaves. Perfect cup shape for Asian wraps.</div>
+                    </div>
+                    <div class="product-price">₹159</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Lollo Rosso (Red)</div>
+                        <div class="product-desc">Vibrant red frilled leaves. Adds volume and color to salads.</div>
+                    </div>
+                    <div class="product-price">₹149</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Swiss Chard (Rainbow)</div>
+                        <div class="product-desc">Colorful stems. Earthy flavor like spinach but sweeter.</div>
+                    </div>
+                    <div class="product-price">₹189</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Tuscan Kale (Dino Kale)</div>
+                        <div class="product-desc">The Superfood King. Dark green, dimpled leaves. 40x nutrition.</div>
+                    </div>
+                    <div class="product-price">₹199</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Wild Arugula (Rocket)</div>
+                        <div class="product-desc">Peppery and spicy. The perfect pizza topping.</div>
+                    </div>
+                    <div class="product-price">₹139</div>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <h3 class="category-title">Exotic Veg</h3>
+            <div class="products">
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Red Cherry Tomato (200g Cup)</div>
+                        <div class="product-desc">Sweet as candy. Pop them straight into your mouth.</div>
+                    </div>
+                    <div class="product-price">₹119</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Yellow Grape Tomato (200g Cup)</div>
+                        <div class="product-desc">Rare yellow variety. Lower acidity, fruity sweetness.</div>
+                    </div>
+                    <div class="product-price">₹149</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Broccoli (Worm-Free)</div>
+                        <div class="product-desc">Hydroponically grown. Guaranteed no hidden worms or grit.</div>
+                    </div>
+                    <div class="product-price">₹249</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Yellow Cauliflower</div>
+                        <div class="product-desc">Beautiful golden color. High in Beta-Carotene.</div>
+                    </div>
+                    <div class="product-price">₹299</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Exotic Green Chilli</div>
+                        <div class="product-desc">Thin skin, medium spice. Clean and glossy.</div>
+                    </div>
+                    <div class="product-price">₹79</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Italian Basil (Fresh)</div>
+                        <div class="product-desc">The aroma of Italy. Essential for Pasta and Pizza.</div>
+                    </div>
+                    <div class="product-price">₹99</div>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <h3 class="category-title">Kits</h3>
+            <div class="products">
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Home Garden Kit (DIY)</div>
+                        <div class="product-desc">Grow your own food. Includes 12 seedlings + Mini Greenhouse.</div>
+                    </div>
+                    <div class="product-price">₹2499</div>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <h3 class="category-title">Microgreens</h3>
+            <div class="products">
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Living Microgreen: Radish</div>
+                        <div class="product-desc">Living spicy radish greens. Cut fresh for salads.</div>
+                    </div>
+                    <div class="product-price">₹199</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Living Microgreen: Sunflower</div>
+                        <div class="product-desc">Nutty, crunchy greens. Tastes like raw almonds.</div>
+                    </div>
+                    <div class="product-price">₹199</div>
+                </div>
+                <div class="product">
+                    <div class="product-info">
+                        <div class="product-title">Wheatgrass Detox Tray</div>
+                        <div class="product-desc">7 Days of Detox Shots. Juicing ready.</div>
+                    </div>
+                    <div class="product-price">₹249</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p><strong>VEGCO Hydroponics</strong> • hello@vegco.inc • +1 234 567 890</p>
+        </div>
+    </div>
+</body>
+</html>
