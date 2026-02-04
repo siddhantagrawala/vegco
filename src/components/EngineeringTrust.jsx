@@ -1,27 +1,66 @@
 import React, { useRef, useEffect } from 'react';
 import { Microscope, ShieldCheck, Activity, Droplets } from 'lucide-react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function EngineeringTrust() {
     const videoRef = useRef(null);
 
+    const sectionRef = useRef(null);
+    const contentRef = useRef(null);
+    const pillarsRef = useRef(null);
+
     useEffect(() => {
         if (videoRef.current) {
-            videoRef.current.playbackRate = 0.8; // Slow down slightly for cinematic feel
+            videoRef.current.playbackRate = 0.8;
         }
+
+        // GSAP Scroll Animations
+        gsap.fromTo(contentRef.current.children,
+            { opacity: 0, y: 30 },
+            {
+                opacity: 1, y: 0,
+                duration: 1,
+                stagger: 0.2,
+                ease: "power3.out",
+                scrollTrigger: {
+                    trigger: sectionRef.current,
+                    start: "top 70%",
+                }
+            }
+        );
+
+        gsap.fromTo(pillarsRef.current.children,
+            { opacity: 0, scale: 0.9, y: 20 },
+            {
+                opacity: 1, scale: 1, y: 0,
+                duration: 0.8,
+                stagger: 0.15,
+                ease: "back.out(1.7)",
+                scrollTrigger: {
+                    trigger: pillarsRef.current,
+                    start: "top 85%",
+                }
+            }
+        );
     }, []);
 
     return (
-        <section style={{
-            position: 'relative',
-            height: '80vh', // Significant presence
-            minHeight: '600px',
-            overflow: 'hidden',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: 'white',
-            fontFamily: 'Inter, sans-serif'
-        }}>
+        <section
+            ref={sectionRef}
+            style={{
+                position: 'relative',
+                height: '80vh', // Significant presence
+                minHeight: '600px',
+                overflow: 'hidden',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: 'white',
+                fontFamily: 'Inter, sans-serif'
+            }}>
             {/* Cinematic Background */}
             <div style={{
                 position: 'absolute',
@@ -89,7 +128,7 @@ export default function EngineeringTrust() {
             </div>
 
             {/* Content Layer */}
-            <div className="container" style={{ position: 'relative', zIndex: 10, textAlign: 'center' }}>
+            <div className="container" ref={contentRef} style={{ position: 'relative', zIndex: 10, textAlign: 'center' }}>
 
                 <div style={{
                     display: 'inline-flex', alignItems: 'center', gap: '0.8rem',
@@ -135,13 +174,16 @@ export default function EngineeringTrust() {
                 </p>
 
                 {/* Metric Pillars */}
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-                    gap: '2rem',
-                    maxWidth: '1000px',
-                    margin: '0 auto'
-                }}>
+                <div
+                    ref={pillarsRef}
+                    style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+                        gap: '2rem',
+                        maxWidth: '1000px',
+                        margin: '0 auto'
+                    }}
+                >
                     <div style={{ background: 'rgba(15, 23, 42, 0.6)', backdropFilter: 'blur(12px)', padding: '2rem', borderRadius: '1rem', border: '1px solid rgba(255,255,255,0.1)' }}>
                         <ShieldCheck size={32} color="#4ade80" style={{ marginBottom: '1rem' }} />
                         <div style={{ fontSize: '1.5rem', fontWeight: '700', marginBottom: '0.5rem' }}>100%</div>

@@ -1,18 +1,52 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
+import Scene3D from './Scene3D';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 import { Leaf, Award, Droplets } from 'lucide-react';
 
 export default function Hero({ onViewCollection, onTechnologyClick }) {
+    const heroRef = useRef(null);
+    const contentRef = useRef(null);
+
+    useEffect(() => {
+        // Hero Entrance & Scroll Parallax
+        gsap.fromTo(contentRef.current,
+            { opacity: 0, y: 50 },
+            { opacity: 1, y: 0, duration: 1.5, ease: "power4.out", delay: 0.5 }
+        );
+
+        // Scroll animation for the 3D scene and background
+        gsap.to(heroRef.current, {
+            scrollTrigger: {
+                trigger: heroRef.current,
+                start: "top top",
+                end: "bottom top",
+                scrub: true
+            },
+            opacity: 0.5,
+            scale: 0.95,
+            y: 100
+        });
+    }, []);
     return (
-        <div style={{
-            position: 'relative',
-            minHeight: '85vh',
-            display: 'flex',
-            alignItems: 'center',
-            overflow: 'hidden',
-            backgroundPosition: 'center',
-            backgroundAttachment: 'fixed',
-            padding: '4rem 0'
-        }}>
+        <section
+            ref={heroRef}
+            style={{
+                position: 'relative',
+                height: '100vh',
+                overflow: 'hidden',
+                backgroundColor: 'var(--color-bg)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                zIndex: 1
+            }}
+        >
+            {/* 3D Background Layer */}
+            <Scene3D />
+
             <div style={{
                 position: 'absolute',
                 inset: 0,
@@ -70,7 +104,11 @@ export default function Hero({ onViewCollection, onTechnologyClick }) {
                 zIndex: -1
             }} />
 
-            <div className="container" style={{ position: 'relative', zIndex: 1, width: '100%' }}>
+            <div
+                className="container"
+                ref={contentRef}
+                style={{ position: 'relative', zIndex: 1, width: '100%' }}
+            >
                 <div style={{ maxWidth: '800px', margin: '0 0 5rem' }}>
 
 
@@ -167,7 +205,7 @@ export default function Hero({ onViewCollection, onTechnologyClick }) {
                     ))}
                 </div>
             </div>
-        </div >
+        </section >
     );
 }
 

@@ -1,8 +1,60 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Sprout, Droplets, Sun, Scissors, ShoppingCart, ShieldCheck, AlertCircle, ChevronRight, Zap, Target } from 'lucide-react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const CropJourney = ({ onBack }) => {
     const [activeStep, setActiveStep] = useState(0);
+    const containerRef = useRef(null);
+    const headerRef = useRef(null);
+    const stepsRef = useRef(null);
+    const imageContainerRef = useRef(null);
+
+    useEffect(() => {
+        // Entrance Animations
+        gsap.fromTo(headerRef.current.children,
+            { opacity: 0, x: -30 },
+            {
+                opacity: 1, x: 0,
+                duration: 1,
+                stagger: 0.2,
+                ease: "power2.out",
+                scrollTrigger: {
+                    trigger: headerRef.current,
+                    start: "top 80%",
+                }
+            }
+        );
+
+        gsap.fromTo(stepsRef.current.children,
+            { opacity: 0, x: -20 },
+            {
+                opacity: 1, x: 0,
+                duration: 0.8,
+                stagger: 0.1,
+                ease: "power1.out",
+                scrollTrigger: {
+                    trigger: stepsRef.current,
+                    start: "top 70%",
+                }
+            }
+        );
+
+        gsap.fromTo(imageContainerRef.current,
+            { opacity: 0, scale: 0.95 },
+            {
+                opacity: 1, scale: 1,
+                duration: 1.2,
+                ease: "power3.out",
+                scrollTrigger: {
+                    trigger: imageContainerRef.current,
+                    start: "top 70%",
+                }
+            }
+        );
+    }, []);
 
     const steps = [
         {
@@ -93,8 +145,8 @@ const CropJourney = ({ onBack }) => {
         }}>
 
 
-            <div className="container" style={{ maxWidth: '1200px' }}>
-                <div style={{ textAlign: 'left', marginBottom: '8rem' }}>
+            <div className="container" ref={containerRef} style={{ maxWidth: '1200px' }}>
+                <div ref={headerRef} style={{ textAlign: 'left', marginBottom: '8rem' }}>
                     <div style={{ color: 'var(--color-primary)', fontSize: '0.75rem', fontWeight: '800', letterSpacing: '0.4em', textTransform: 'uppercase', marginBottom: '1.5rem' }}>
                         The Seed-to-Scale Protocol
                     </div>
@@ -107,7 +159,7 @@ const CropJourney = ({ onBack }) => {
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.2fr', gap: '6rem', marginBottom: '15rem' }}>
                     <div style={{ position: 'sticky', top: '10rem', height: 'fit-content' }}>
                         <div style={{ fontSize: '0.65rem', color: 'var(--color-text-light)', fontWeight: '800', letterSpacing: '0.2em', marginBottom: '2rem' }}>CURRENT DEPLOYMENT STAGE</div>
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+                        <div ref={stepsRef} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                             {steps.map((step, i) => (
                                 <div
                                     key={i}
@@ -133,16 +185,19 @@ const CropJourney = ({ onBack }) => {
                     </div>
 
                     <div style={{ position: 'relative' }}>
-                        <div style={{
-                            borderRadius: '2rem',
-                            overflow: 'hidden',
-                            height: '500px',
-                            border: '1px solid rgba(28, 25, 23, 0.05)',
-                            background: '#fff',
-                            position: 'relative',
-                            marginBottom: '3rem',
-                            boxShadow: 'var(--shadow-lg)'
-                        }} className="animate-fade-up">
+                        <div
+                            ref={imageContainerRef}
+                            style={{
+                                borderRadius: '2rem',
+                                overflow: 'hidden',
+                                height: '500px',
+                                border: '1px solid rgba(28, 25, 23, 0.05)',
+                                background: '#fff',
+                                position: 'relative',
+                                marginBottom: '3rem',
+                                boxShadow: 'var(--shadow-lg)'
+                            }}
+                        >
                             <img
                                 key={activeStep}
                                 src={steps[activeStep].image}
