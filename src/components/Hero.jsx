@@ -74,25 +74,7 @@ export default function Hero({ onViewCollection, onTechnologyClick }) {
                 <div style={{ maxWidth: '800px', margin: '0 0 5rem' }}>
 
 
-                    <div className="animate-fade-up" style={{
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: '0.5rem',
-                        padding: '0.6rem 1.2rem',
-                        background: 'rgba(255,255,255,0.6)',
-                        backdropFilter: 'blur(10px)',
-                        borderRadius: '999px',
-                        marginBottom: '2rem',
-                        border: '1px solid rgba(28, 25, 23, 0.08)',
-                        color: 'var(--color-primary-dark)',
-                        fontSize: '0.75rem',
-                        fontWeight: '600',
-                        letterSpacing: '0.1em',
-                        boxShadow: 'var(--shadow-sm)'
-                    }}>
-                        <span style={{ width: '8px', height: '8px', background: 'var(--color-accent)', borderRadius: '50%' }} />
-                        SYSTEM: PRIVA V-ONE PROTOCOL v1.0
-                    </div>
+
 
                     <h1 className="animate-fade-up delay-100" style={{
                         fontSize: 'clamp(2.5rem, 6vw, 5.5rem)',
